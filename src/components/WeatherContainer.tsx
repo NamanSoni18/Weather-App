@@ -57,17 +57,14 @@ export default function WeatherApp() {
         moonrise: moonrise,
         moonset: moonset,
       });
-
-      console.log(responseWeather.data);
-      console.log(responseAstronomy.data);
     } catch (error) {
       console.error("Error fetching the weather and astronomy data:", error);
     }
   };
 
   return (
-    <div className="shine-border container mx-auto p-4 flex justify-center items-center h-screen">
-      <div className="flex-1 text-center">
+    <div className="shine-border container mx-auto p-4 flex flex-col md:flex-row justify-center items-center h-screen">
+      <div className="flex-1 text-center mb-4 md:mb-0">
         <h2 className="text-2xl font-bold mb-4">Weather & Astronomy</h2>
         <div className="flex justify-center items-center mb-4">
           {weatherData.icon && <img src={weatherData.icon} alt="Weather Icon" />}
