@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav id='home' className="sticky top-0 z-50 flex justify-between items-center py-4 px-6 bg-white dark:bg-gray-900 shadow-md">
+      <nav className="sticky top-0 z-50 flex justify-between items-center py-4 px-6 bg-white dark:bg-gray-900 shadow-md">
         <div className="flex items-center space-x-4">
           <Button variant="ghost" className="lg:hidden" onClick={() => setOpen(!open)}>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
