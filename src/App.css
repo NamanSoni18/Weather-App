@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add this to your CSS file or within a <style> tag */
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+}

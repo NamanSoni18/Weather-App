@@ -43,7 +43,7 @@ export default function ShineBorder({
         className
       )}
     >
-      <div
+      <div id="weather"
         style={
           {
             "--border-width": `${borderWidth}px`,
